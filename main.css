@@ -1,0 +1,89 @@
+body {
+    background-color: #f7e7ce; 
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    background-color: #8d5524;
+    color: #1612d7;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #6b3e26;
+    text-align: center; 
+    text-shadow: 2px 2px 5px #1612d7; /* Correct usage */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: rgb(192, 234, 26);
+    color: blue;
+    justify-content: space-evenly;
+    text-shadow: 5px 5px 5px rgb(243, 2, 2);
+    padding: 1px;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #484141;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 30px;
+}
+
+section ul {
+    background-color: #ffe4b5;
+    color: #6b3e26;           
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    border: 2px solid #d2691e; 
+    box-shadow: 2px 2px 8px #ccc;
+    display: inline-block; 
+    margin: 0 auto;    
+    list-style-type: square;    
+}
+
+img {
+    border: 10px solid rgb(24, 211, 24);
+    border-radius: 12px;
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    box-shadow: 2px 2px 8px #e81414;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-indent: initial;
+    background: #fffbe7;
+    box-shadow: 2px 2px 8px #ccc;
+}
+
+th, td {
+    border: 2px solid #8d5524;
+    padding: 12px 18px;
+    text-align: center;
+}
+
+th {
+    background-color: #d2691e;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+tr:nth-child(even) {
+    background-color: #f7e7ce;
+}

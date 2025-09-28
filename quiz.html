@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Quiz</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <section>
+                <h2>1. What is the chocolate you like most?</h2>
+                <label><input type="radio" name="fav_chocolate" value="Dark Chocolate"> Dark Chocolate</label><br>
+                <label><input type="radio" name="fav_chocolate" value="Milk Chocolate"> Milk Chocolate</label><br>
+                <label><input type="radio" name="fav_chocolate" value="White Chocolate"> White Chocolate</label><br>
+                <label><input type="radio" name="fav_chocolate" value="Hazelnut Chocolate"> Hazelnut Chocolate</label>
+            </section>
+            <section>
+                <h2>2. How often do you eat chocolate?</h2>
+                <select name="frequency">
+                    <option value="Daily">Daily</option>
+                    <option value="Weekly">Weekly</option>
+                    <option value="Monthly">Monthly</option>
+                    <option value="Rarely">Rarely</option>
+                </select>
+            </section>
+            <section>
+                <h2>3. Do you prefer chocolates with nuts?</h2>
+                <label><input type="radio" name="nuts" value="Yes"> Yes</label>
+                <label><input type="radio" name="nuts" value="No"> No</label>
+            </section>
+            <section>
+                <h2>4. Which country is famous for making chocolates?</h2>
+                <label><input type="radio" name="country" value="Switzerland"> Switzerland</label>
+                <label><input type="radio" name="country" value="Belgium"> Belgium</label>
+                <label><input type="radio" name="country" value="India"> India</label>
+                <label><input type="radio" name="country" value="USA"> USA</label>
+            </section>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
